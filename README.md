@@ -19,7 +19,7 @@ This is a full-stack React application for posting and sharing short learning no
 
 1. Clone the repo
 
-   git clone https://github.com/YOUR_USERNAME/today-i-learned.git  
+   git clone https://github.com/Heman-Gowda-KS/today-i-learned.git  
    cd today-i-learned
 
 2. Install dependencies
