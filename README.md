@@ -1,20 +1,44 @@
-# Crash Course: Build a Full-Stack Web App in a Weekend!
+# Today I Learned 🌱
 
-This is a 12 hours course on Udemy made by Jonas Schedtmann.
+This is a full-stack React application for posting and sharing short learning notes ("Today I Learned").
 
-### Content of the course
+## 🚀 Features
 
-* HTML
-* CSS
-* Storing the data in a Supabase database
-* JavaScript
-* React
-* Deploy the app in Netlify
+- View a list of all TIL posts
+- Add new facts or notes
+- Vote on facts as interesting, mind-blowing, or false
+- Categorized tagging and color-coded labels
 
-### Overview of the functions of the website
+## 🛠️ Tech Stack
 
-* create a new fact and save it in a supabase database
-* vote the fact
-* sort the facts by categories
+- Frontend: React, CSS
+- Backend: Supabase (PostgreSQL + API + Auth)
+- Build Tool: Create React App (CRA)
 
-<img width="1216" alt="Screenshot 2022-12-26 at 14 25 25" src="https://user-images.githubusercontent.com/70845953/209553655-1b94d383-13b9-4a15-b2bc-d954c36dd418.png">
+## 📦 Getting Started
+
+1. Clone the repo
+
+   git clone https://github.com/YOUR_USERNAME/today-i-learned.git  
+   cd today-i-learned
+
+2. Install dependencies
+
+   npm install
+
+3. Start the app
+
+   npm start
+
+## 🔐 Supabase Setup
+
+1. Create a free account at https://supabase.com/
+2. Create a new project and a table for storing facts
+3. Configure the Supabase URL and anon key in a `.env` file in your project root:
+
+   REACT_APP_SUPABASE_URL=your-supabase-url  
+   REACT_APP_SUPABASE_KEY=your-anon-key
+
+## 🧾 License
+
+This project is open source and available under the MIT License.
